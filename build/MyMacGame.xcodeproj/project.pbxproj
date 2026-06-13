@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		48653286C3D460A82E2293AE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 72E3FB46F94A4013BD883330 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				9BF432A374877B34B1895C6E /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				F6D50ACF3F024673A6B71D79 /* PBXTargetDependency */,
+				1660BF3645AE4D31A203B593 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		69AF9B5882E742E1EDC8F980 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D80C86C6E8DC4488B5290F2E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				124CDAFCDB7FB959D5CD4216 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9DACE33E3311490B9263E370 /* /Users/kuniaki/Documents/YUIKE-game/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3CD768F02BB840439FB86A93 /* /Users/kuniaki/Documents/YUIKE-game/CMakeLists.txt */; };
+		C0474905D32041C4B58FBC3F /* /Users/kuniaki/Documents/YUIKE-game/main.cpp */ = {isa = PBXBuildFile; fileRef = F55DC7671D8F4DBA9B200C95 /* /Users/kuniaki/Documents/YUIKE-game/main.cpp */; };
+		DB52BCA6B451479D90D36D74 /* /Users/kuniaki/Documents/YUIKE-game/build/CMakeFiles/MyMacGame.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = C9D9429C9D754212A1C5AC64 /* /Users/kuniaki/Documents/YUIKE-game/build/CMakeFiles/MyMacGame.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		601290E626B34A298AA0F477 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		7CBC4EAFADB7460E9250AE7F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		8F3B1D81313A4A2A9879B3CC /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		CB5AC341AB554CFA969F6F34 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		12EB1B97F98542B280D5CF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C587B755508B4EA48D68DADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69AF9B5882E742E1EDC8F980;
+			remoteInfo = ZERO_CHECK;
+		};
+		3A0A6EB05A304F638BA215A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C587B755508B4EA48D68DADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69AF9B5882E742E1EDC8F980;
+			remoteInfo = ZERO_CHECK;
+		};
+		CB0BBF43D781425C9AFAF466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C587B755508B4EA48D68DADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4310EDB93565E7C9D89405EB;
+			remoteInfo = MyMacGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B5BBB5DB0A14B0C86A6904F /* MyMacGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MyMacGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD768F02BB840439FB86A93 /* /Users/kuniaki/Documents/YUIKE-game/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8CBA0CAB50264AAE9AC30D03 /* /Users/kuniaki/Documents/YUIKE-game/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C9D9429C9D754212A1C5AC64 /* /Users/kuniaki/Documents/YUIKE-game/build/CMakeFiles/MyMacGame.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/CMakeFiles/MyMacGame.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		F55DC7671D8F4DBA9B200C95 /* /Users/kuniaki/Documents/YUIKE-game/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED9D6F5729F4D08AEAA2797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BCF8CF1C20E4E468EA8633C /* MyMacGame */ = {
+			isa = PBXGroup;
+			children = (
+				4A24F29AED814D0B82FEE23D /* Resources */,
+				887B2F4E0B904AD89C998697 /* Source Files */,
+				3CD768F02BB840439FB86A93 /* /Users/kuniaki/Documents/YUIKE-game/CMakeLists.txt */,
+			);
+			name = MyMacGame;
+			sourceTree = "<group>";
+		};
+		380C4A84A6124C6A99095EB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4A24F29AED814D0B82FEE23D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9D9429C9D754212A1C5AC64 /* /Users/kuniaki/Documents/YUIKE-game/build/CMakeFiles/MyMacGame.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7D5E77AA99C74FBD84DF79FC = {
+			isa = PBXGroup;
+			children = (
+				AB72F5D626E74859AC238096 /* ALL_BUILD */,
+				0BCF8CF1C20E4E468EA8633C /* MyMacGame */,
+				E722DCE8EC294CA7A0FCDA54 /* Products */,
+				8B967178A2E140DA976EF9A0 /* Frameworks */,
+				380C4A84A6124C6A99095EB9 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		887B2F4E0B904AD89C998697 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F55DC7671D8F4DBA9B200C95 /* /Users/kuniaki/Documents/YUIKE-game/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8B967178A2E140DA976EF9A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C488388E6E64B19989134A9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AB72F5D626E74859AC238096 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9C488388E6E64B19989134A9 /* CMake Rules */,
+				8CBA0CAB50264AAE9AC30D03 /* /Users/kuniaki/Documents/YUIKE-game/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E722DCE8EC294CA7A0FCDA54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5BBB5DB0A14B0C86A6904F /* MyMacGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4310EDB93565E7C9D89405EB /* MyMacGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9EBFD4C74C40B0BE26E4D8 /* Build configuration list for PBXNativeTarget "MyMacGame" */;
+			buildPhases = (
+				72ACBF7DFFCB4D58A4C4B148 /* Sources */,
+				FED9D6F5729F4D08AEAA2797 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC51F0E1C674E3BA1E4343A /* PBXTargetDependency */,
+			);
+			name = MyMacGame;
+			productName = MyMacGame;
+			productReference = 2B5BBB5DB0A14B0C86A6904F /* MyMacGame */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C587B755508B4EA48D68DADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2630;
+			};
+			buildConfigurationList = ACB91E03DACE4F768FA32CFD /* Build configuration list for PBXProject "MyMacGame" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CB5AC341AB554CFA969F6F34 /* Debug */,
+				7CBC4EAFADB7460E9250AE7F /* Release */,
+				8F3B1D81313A4A2A9879B3CC /* MinSizeRel */,
+				601290E626B34A298AA0F477 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7D5E77AA99C74FBD84DF79FC;
+			projectDirPath = "/Users/kuniaki/Documents/YUIKE-game";
+			projectRoot = "";
+			targets = (
+				48653286C3D460A82E2293AE /* ALL_BUILD */,
+				4310EDB93565E7C9D89405EB /* MyMacGame */,
+				69AF9B5882E742E1EDC8F980 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		124CDAFCDB7FB959D5CD4216 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/kuniaki/Documents/YUIKE-game/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kuniaki/Documents/YUIKE-game/build
+  make -f /Users/kuniaki/Documents/YUIKE-game/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kuniaki/Documents/YUIKE-game/build
+  make -f /Users/kuniaki/Documents/YUIKE-game/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kuniaki/Documents/YUIKE-game/build
+  make -f /Users/kuniaki/Documents/YUIKE-game/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kuniaki/Documents/YUIKE-game/build
+  make -f /Users/kuniaki/Documents/YUIKE-game/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9BF432A374877B34B1895C6E /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/kuniaki/Documents/YUIKE-game/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kuniaki/Documents/YUIKE-game/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kuniaki/Documents/YUIKE-game/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kuniaki/Documents/YUIKE-game/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kuniaki/Documents/YUIKE-game/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72ACBF7DFFCB4D58A4C4B148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0474905D32041C4B58FBC3F /* /Users/kuniaki/Documents/YUIKE-game/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1660BF3645AE4D31A203B593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69AF9B5882E742E1EDC8F980 /* ZERO_CHECK */;
+			targetProxy = 3A0A6EB05A304F638BA215A8 /* PBXContainerItemProxy */;
+		};
+		5CC51F0E1C674E3BA1E4343A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69AF9B5882E742E1EDC8F980 /* ZERO_CHECK */;
+			targetProxy = 12EB1B97F98542B280D5CF65 /* PBXContainerItemProxy */;
+		};
+		F6D50ACF3F024673A6B71D79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4310EDB93565E7C9D89405EB /* MyMacGame */;
+			targetProxy = CB0BBF43D781425C9AFAF466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11D2E6D301AF4E04A18EB50E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/kuniaki/Documents/YUIKE-game/build/build";
+			};
+			name = MinSizeRel;
+		};
+		12931821FB2F47B8AA62DE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kuniaki/Documents/YUIKE-game/build/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/kuniaki/Documents/YUIKE-game/build/CMakeFiles/MyMacGame.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libraylib.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyMacGame;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/kuniaki/Documents/YUIKE-game/build/build/MyMacGame.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		37C0BBA9AAF84B4A84C60F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4696BA5D20D64F26A87C545A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kuniaki/Documents/YUIKE-game/build/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/kuniaki/Documents/YUIKE-game/build/CMakeFiles/MyMacGame.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libraylib.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyMacGame;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/kuniaki/Documents/YUIKE-game/build/build/MyMacGame.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		68007231E9914A0A9EC9308F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kuniaki/Documents/YUIKE-game/build/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/kuniaki/Documents/YUIKE-game/build/CMakeFiles/MyMacGame.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libraylib.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyMacGame;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/kuniaki/Documents/YUIKE-game/build/build/MyMacGame.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		79A8366A138848B0BEE06BC8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kuniaki/Documents/YUIKE-game/build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "/Users/kuniaki/Documents/YUIKE-game/build/CMakeFiles/MyMacGame.dir/Info.plist";
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/opt/homebrew/lib/libraylib.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyMacGame;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/kuniaki/Documents/YUIKE-game/build/build/MyMacGame.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		915103ACBFF645BF8ACBD64D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		93805AAFAEF846A89FD13066 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B72ECFDC1E074303B830082B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = "/Users/kuniaki/Documents/YUIKE-game/build/build";
+			};
+			name = Debug;
+		};
+		D975BC85FD1D4434BB02EB98 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/kuniaki/Documents/YUIKE-game/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E28FFD19FA4B40CCB6BA3C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E4DB814AD088415ABE2C1F57 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E77432327DFD4DE298F64E02 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EF227F89D432408285961912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FD5E2BCE272F4614A704FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/kuniaki/Documents/YUIKE-game/build/build";
+			};
+			name = Release;
+		};
+		FFAF26A8D426413395F63E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72E3FB46F94A4013BD883330 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF227F89D432408285961912 /* Debug */,
+				37C0BBA9AAF84B4A84C60F2F /* Release */,
+				93805AAFAEF846A89FD13066 /* MinSizeRel */,
+				E4DB814AD088415ABE2C1F57 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ACB91E03DACE4F768FA32CFD /* Build configuration list for PBXProject "MyMacGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72ECFDC1E074303B830082B /* Debug */,
+				FD5E2BCE272F4614A704FD22 /* Release */,
+				11D2E6D301AF4E04A18EB50E /* MinSizeRel */,
+				D975BC85FD1D4434BB02EB98 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CA9EBFD4C74C40B0BE26E4D8 /* Build configuration list for PBXNativeTarget "MyMacGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68007231E9914A0A9EC9308F /* Debug */,
+				12931821FB2F47B8AA62DE61 /* Release */,
+				4696BA5D20D64F26A87C545A /* MinSizeRel */,
+				79A8366A138848B0BEE06BC8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D80C86C6E8DC4488B5290F2E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28FFD19FA4B40CCB6BA3C14 /* Debug */,
+				FFAF26A8D426413395F63E50 /* Release */,
+				915103ACBFF645BF8ACBD64D /* MinSizeRel */,
+				E77432327DFD4DE298F64E02 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C587B755508B4EA48D68DADE /* Project object */;
+}

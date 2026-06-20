@@ -12,6 +12,12 @@ class GameScene: SKScene {
     
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
+    private var initialLabelPosition: CGPoint = .zero
+    private let moveSpeed: CGFloat = 8.0
+    private var isUpPressed = false
+    private var isDownPressed = false
+    private var isLeftPressed = false
+    private var isRightPressed = false
     
     override func didMove(to view: SKView) {
         
@@ -79,13 +85,36 @@ class GameScene: SKScene {
             if let label = self.label {
                 label.run(SKAction.init(named: "Pulse")!, withKey: "fadeInOut")
             }
+        case 126: isUpPressed = true
+        case 125: isDownPressed = true
+        case 123: isLeftPressed = true
+        case 124: isRightPressed = true
         default:
             print("keyDown: \(event.characters!) keyCode: \(event.keyCode)")
         }
     }
     
+    override func keyUp(with event: NSEvent) {
+        switch event.keyCode {
+        case 126: isUpPressed = false
+        case 125: isDownPressed = false
+        case 123: isLeftPressed = false
+        case 124: isRightPressed = false
+        default:
+             break
+        }
+        if !isUpPressed && !isDownPressed && !isLeftPressed && !isRightPressed {
+            if let label = self.label {
+                label.position = self.initialLabelPosition
+            }
+        }
+    }
     
     override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
+        guard let label = self.label else { return }
+        if isUpPressed { label.position.y += moveSpeed }
+        if isDownPressed { label.position.y -= moveSpeed }
+        if isLeftPressed { label.position.x -= moveSpeed }
+        if isRightPressed { label.position.x += moveSpeed }
     }
 }
